@@ -1,0 +1,255 @@
+:root {
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+button {
+    background-color: unset;
+    border: unset;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* -------------------------------------------- Reset CSS -------------------------------------------- */
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+#desc {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+#nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.clicked-page {
+    color: rgb(182, 182, 182);
+}
+
+.pages:hover {
+    color: rgb(110, 110, 110);
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.conteneur {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px 290px;
+    gap: 5px;
+    grid-template-rows: 400px;
+    justify-content: center;
+}
+
+.titles {
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 85%;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.titles:hover {
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #363636;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #2b2b2b,
+    0 15px 0 -4px #646464,
+    0 16px 10px -3px #979797;
+}
+
+.pics {
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.pics:hover {
+    border-radius: 50px;
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 90px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#bot {
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative; /* Important pour que le message soit bien positionné par rapport au logo */
+    display: inline-block;
+}
+
+#bot:hover {
+    border-radius: 25px;
+    animation: taille 0.5s ease-in-out;
+}
+
+@keyframes taille {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Overlay pour l'effet sombre */
+#popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8); /* Couche sombre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s ease-in;
+}
+
+/* Masque l'overlay par défaut */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+
+/* Style du popup */
+#popup {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 99px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    max-width: 1500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+/* Bouton de fermeture */
+#close-popup {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    background: rgb(255, 65, 65);
+    color: white;
+    border: none;
+    border-radius: 95px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 2000; /* S'assure que la croix soit au-dessus du contenu */
+}
+
+#popup-content h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+}
+
+#popup-content h4 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+#popup-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
