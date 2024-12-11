@@ -145,11 +145,11 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Butrint est un site archéologique situé dans le sud de l'Albanie, près de la mer Ionienne. Inscrit au patrimoine mondial de l'UNESCO, il est connu pour ses vestiges qui témoignent de plusieurs civilisations, notamment grecque, romaine, byzantine et vénitienne. Fondée au VIIe siècle avant J.-C., la ville antique de Butrint était un centre important de commerce et de culture. Parmi ses attractions principales figurent un théâtre grec, des bains romains, une basilique paléochrétienne et une citadelle médiévale. Le site est entouré de paysages naturels magnifiques, avec un lac voisin et une biodiversité riche. Butrint est une destination incontournable pour les passionnés d'histoire et de nature.",
             imgSrc: "./monuments/28.webp"
         },
-        gbr: {
-            title: "La Grande Barrière",
-            country: "Australie",
-            description: "La Grande Barrière de corail est le plus grand récif corallien du monde, situé au large de la côte nord-est de l'Australie, dans la mer de Corail. Elle s'étend sur environ 2 300 kilomètres et comprend plus de 2 900 récifs individuels et 900 îles. Ce site naturel unique est inscrit au patrimoine mondial de l'UNESCO et abrite une biodiversité exceptionnelle, avec des milliers d'espèces marines, dont des poissons, des tortues, des coraux et des mammifères marins. La Grande Barrière joue un rôle crucial dans l'équilibre écologique de la région, mais elle est menacée par le réchauffement climatique, le blanchissement des coraux et les activités humaines. Elle reste néanmoins une destination prisée pour la plongée sous-marine et l'observation de la faune marine.",
-            imgSrc: "./monuments/29.jpg"
+        nst: {
+            title: "N Seoul Tower",
+            country: "Corée du Sud",
+            description: "La N Seoul Tower, située sur le mont Namsan à Séoul, en Corée du Sud, est un observatoire emblématique offrant une vue panoramique spectaculaire sur la ville. Inaugurée en 1969 comme tour de communication, elle est aujourd'hui un lieu touristique populaire. La tour est illuminée la nuit, créant un spectacle lumineux unique, et dispose de plateformes d'observation, de restaurants et d'un espace pour des 'cadenas d'amour' laissés par les visiteurs. La N Seoul Tower est un symbole de la modernité et de l'innovation de Séoul.",
+            imgSrc: "./monuments/29.avif"
         },
         gm: {
             title: "La Grande Muraille",
@@ -456,6 +456,36 @@ document.addEventListener("DOMContentLoaded", () => {
             country: "Thaïlande",
             description: "Le Temple Blanc (Wat Rong Khun) est un temple bouddhiste moderne situé à Chiang Rai, en Thaïlande. Conçu par l'artiste Chalermchai Kositpipat, il est connu pour son architecture unique et ses détails complexes. L'extérieur du temple est entièrement blanc, symbolisant la pureté, et il est orné de miroirs qui reflètent la lumière. À l'intérieur, les peintures modernes représentent des scènes à la fois religieuses et contemporaines, y compris des images de la culture pop. Le Temple Blanc est un lieu de culte vivant et une attraction touristique fascinante.",
             imgSrc: "./monuments/81.jpg"
+        },
+        msm: {
+            title: "Mont-Saint-Michel",
+            country: "France",
+            description: "Le Mont-Saint-Michel, situé en Normandie, France, est une île rocheuse surmontée d'une abbaye médiévale dédiée à l'archange Michel. Érigé à partir du VIIIe siècle, il se dresse au cœur d'une vaste baie sujette aux marées spectaculaires, qui renforcent son caractère mystique. Ce site emblématique allie histoire, architecture gothique et paysages naturels. Classé au patrimoine mondial de l'UNESCO, le Mont-Saint-Michel est l'une des destinations les plus visitées de France, attirant des pèlerins et des touristes du monde entier.",
+            imgSrc: "./monuments/82.jpg"
+        },
+        mh: {
+            title: "Mont Huangshan",
+            country: "Chine",
+            description: "Le mont Huangshan, également appelé 'Montagne Jaune', est une chaîne montagneuse située dans la province de l'Anhui, en Chine. Connu pour ses pics granitiques spectaculaires, ses pins aux formes uniques et ses nuages de brume envoûtants, il a inspiré de nombreuses œuvres d'art et de poésie chinoises. Classé au patrimoine mondial de l'UNESCO, Huangshan est aussi célèbre pour ses sources chaudes et ses couchers de soleil à couper le souffle. Ce site naturel et culturel est une destination prisée des amateurs de randonnée et des passionnés de paysages majestueux.",
+            imgSrc: "./monuments/84.jpg"
+        },
+        cch: {
+            title: "Château de Chambord",
+            country: "France",
+            description: "Le château de Chambord, situé dans la vallée de la Loire, en France, est un chef-d'œuvre de la Renaissance française. Construit au XVIe siècle sous le règne de François Ier, il est célèbre pour son architecture unique, notamment son escalier à double révolution attribué à Léonard de Vinci. Entouré d'un vaste domaine forestier, Chambord est le plus grand château de la région et un symbole du pouvoir royal. Classé au patrimoine mondial de l'UNESCO, il attire des visiteurs du monde entier pour sa grandeur et son élégance.",
+            imgSrc: "./monuments/83.jpg"
+        },
+        cnd: {
+            title: "Cathédrale Notre-Dame de Paris",
+            country: "France",
+            description: "La cathédrale Notre-Dame de Paris, située sur l'île de la Cité, est un chef-d'œuvre de l'architecture gothique. Construite entre le XIIe et le XIVe siècle, elle est célèbre pour ses arcs-boutants, ses rosaces impressionnantes et ses sculptures détaillées. Symbole historique et spirituel, elle a été le théâtre d'événements majeurs, comme le couronnement de Napoléon. Bien que gravement endommagée par un incendie en 2019, Notre-Dame reste un symbole culturel incontournable de Paris et attire des millions de visiteurs chaque année. Sa restauration est en cours pour préserver son héritage.",
+            imgSrc: "./monuments/85.jpg"
+        },
+        ss: {
+            title: "Sainte-Sophie",
+            country: "Turquie",
+            description: "La basilique Sainte-Sophie, située à Istanbul, en Turquie, est un monument emblématique au carrefour des cultures et des religions. Construite au VIe siècle sous l'empereur byzantin Justinien, elle fut la plus grande église chrétienne du monde avant de devenir une mosquée au XVe siècle, après la conquête ottomane. Aujourd'hui reconvertie en mosquée, elle est célèbre pour son immense dôme, ses mosaïques byzantines et son architecture novatrice. Inscrite au patrimoine mondial de l'UNESCO, Sainte-Sophie est un symbole de l'histoire riche et complexe d'Istanbul.",
+            imgSrc: "./monuments/86.jpg"
         }
     };
 
